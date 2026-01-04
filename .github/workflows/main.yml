@@ -24,12 +24,15 @@ jobs:
 
       - name: Build with Maven
         run: mvn clean install
+        working-directory: ./spring-boot-app
 
       - name: Run Tests
         run: mvn test
+        working-directory: ./spring-boot-app
 
       - name: SonarQube Scan
         uses: sonarsource/sonarcloud-github-action@v2
+        working-directory: ./spring-boot-app
         with:
           projectKey: ci-cd-task
           organization: your-sonar-org
