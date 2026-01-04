@@ -20,6 +20,7 @@ spec:
     spec:
       containers:
         - name: backend-container
-          image: rogkhaled/maven-app:<actual-image-tag>
+          image: rogkhaled/maven-app:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
