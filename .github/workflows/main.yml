@@ -68,7 +68,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # مثال: SSH deploy على سيرفر
+      # deploy on server
       - name: Deploy to Server
         uses: appleboy/ssh-action@v0.1.6
         with:
