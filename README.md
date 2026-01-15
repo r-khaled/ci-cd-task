@@ -7,6 +7,7 @@ This project demonstrates a production-grade DevSecOps implementation for deploy
 The project addresses the entire deployment lifecycle, from source code management through production deployment, with emphasis on security, automation, and operational excellence.
 
 ## Architecture Overview
+![maven-app-digram](https://github.com/user-attachments/assets/48180d8f-4d74-4770-a94a-d7f7045ef3a6)
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -430,3 +431,4 @@ ci-cd-task/
 This project represents a comprehensive DevSecOps implementation demonstrating enterprise-grade practices for secure, automated, and scalable application deployment on Kubernetes. By combining infrastructure-as-code, containerization, automated security scanning, and GitOps principles, the solution delivers reliable, auditable, and maintainable deployments suitable for production environments.
 
 The architecture is designed to be extensible, allowing integration of additional tools and practices as organizational needs evolve while maintaining security and operational excellence.
+
